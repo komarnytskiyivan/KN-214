@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+<script src="./script.js"></script>
+</head>
+<body>
+<table>
+<form class="decor" name="myForm" onsubmit="return validateForm()" method="post">
+  <div class="form-left-decoration"></div>
+  <div class="form-right-decoration"></div>
+  <div class="circle"></div>
+  <div class="form-inner">
+    <h3>Form</h3>
+    <input type="text" placeholder="Username" name="fname">
+    <input type="email" placeholder="Email">
+	<input type="tel" placeholder="Telephone">
+	<input type="password" id="pwd" name="pwd" placeholder="Password">
+	<input id="id1" type="number" min="100" placeholder="Number">
+    <textarea placeholder="Write..." rows="3"></textarea>
+    <input type="submit" onclick="validateNumber()" value="Отправить">
+	<p id="demo"></p>
+  </div>
+</form>
+</table>
+</body>
+</html>

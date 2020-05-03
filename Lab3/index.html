@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+<style type="text/css" media="screen, print">
+   #table1 {
+    width: 300px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+   }
+   TD, TH {
+    padding: 3px;
+   }
+   TH {
+    text-align: left; 
+    border-bottom: 1px solid #000; 
+   }
+    @font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+    }
+    
+    body { font-family: "Bitstream Vera Serif Bold", serif }
+  </style>
+</head>
+<body>
+<table>
+<form class="decor">
+  <div class="form-left-decoration"></div>
+  <div class="form-right-decoration"></div>
+  <div class="circle"></div>
+  <div class="form-inner">
+    <h3>Form</h3>
+    <input type="text" placeholder="Username">
+    <input type="email" placeholder="Email">
+	<input type="tel" placeholder="Telephone">
+	<input type="password" id="pwd" name="pwd" placeholder="Password">
+	<input type="number" id="quantity" name="quantity" min="1" max="5" placeholder="Number">
+    <textarea placeholder="Write..." rows="3"></textarea>
+	<input type="radio" placeholder="Radio">
+	<input type="checkbox" placeholder="Email">
+	<select id="cars">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	</select>
+    <input type="submit" value="Отправить">
+  </div>
+</form>
+</table>
+<table id="table1" cellspacing="0">
+   <tr>
+    <th>&nbsp;</th><th>2001</th><th>2002</th><th>2003</th>
+   </tr>
+   <tr>
+    <td>First</td><td>43</td><td>51</td><td>79</td>
+   </tr>
+   <tr>
+    <td>Second</td><td>28</td><td>34</td><td>48</td>
+   </tr>
+   <tr>
+    <td>Third</td><td>29</td><td>57</td><td>36</td>
+   </tr>
+  </table>
+</body>
+</html>
